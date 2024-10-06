@@ -1,47 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-body{
-    font-family: "Open Sans", sans-serif; 
-}
 
-:root{
-    --padding--container: 200px 0;
-    --color-title: #001A49;
-}
+/* -------------------------------------------------------------------------------------- */
 
 .container{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-   /* display: flex;
-    justify-content: space-between;
-    */
     align-items: center;
     overflow: hidden;
     padding: var(--padding-container);
 }
 
-h1{
-    font-family: "Open Sans", sans-serif;
-
-}
+/* -------------------------------------------------------------------------------------- */
 
 .nav__logo__texto{
     display: inline-block;
     vertical-align:top;
     margin-top: 6px;
     font-size: 18px;
-}
-
-.hero{
-    width : 100%;
-    height: 100vh;
-    min-height: 600px;
-    max-height: 800px;
-    position: relative;
-    display: grid;
-    grid-template-rows: 100px 1fr;
+    font-family: "Open Sans", sans-serif;
 }
 
 .nav{
@@ -56,21 +35,6 @@ h1{
     display: inline-block;
 }
 
-.hero__container{
-    max-width: 800px;
-    display: grid;
-    --padding-container: 0;
-    grid-auto-rows: max-content;
-    align-content: top;
-    gap: 1em;
-    padding-bottom: 100px;
-    text-align: center;
-}
-
-.hero__title{
-    font-size: 3rem;
-}
-
 .nav__link{
     margin-left: auto;
     padding: 0;
@@ -80,34 +44,55 @@ h1{
     gap: 2em;
 }
 
-.about__container{
-    background-color: #FFF0D9;
-    display: grid;
-    gap: 1em;
-    align-items: center;
-}
+/* -------------------------------------------------------------------------------------- */
 
+.about__container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0D9;
+    width: 1200px;
+    height: 500px;
+}
 
 .about_texts{
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: middle;
+    height: 300px;
+    margin-left: 30px;
 }
+
+.about_texts_titulo p{
+    font-family: "Playfair Display", system-ui;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    }
+
+
+.about_texts_cuerpo p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 350px;
+    line-height: 1.5;
+}
+
+.about_foto{
+    width: 469px;
+    height: 399px;
+    margin-right: 50px;
+}
+
+/* -------------------------------------------------------------------------------------- */
 
 .info{
     text-align: center;
 }
 
-.about__foto2{
-    width: 100%;
-    display: block;
-    max-width: 500px;
-    position: relative;
-    margin-left: 700px;
-}
+/* -------------------------------------------------------------------------------------- */
 
 .footer{
     background-color: black;
+    height: 450px;
 }
 
 .footertext{
