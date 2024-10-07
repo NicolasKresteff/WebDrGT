@@ -54,6 +54,7 @@ a {
     color: black;
     padding: 9px 18px;
     border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
 }
 
 #nav-link-contacto {
@@ -69,8 +70,10 @@ a {
 /* -------------------------------------------------------------------------------------- */
 
 .main-title {
-    width: 244px;
+    width: 290px;
     margin: 15px auto;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 .select-menu {
@@ -138,32 +141,26 @@ a {
 
 /*----------------------------------------------------------------------*/
 
-
 .about-container {
     display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    align-items: center;
     background-color: #FFF0D9;
-    width: 1200px;
-    height: 500px;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-.about-text {
-    height: 300px;
-    margin-left: 30px;
+.about-item1 {
+    width: 500px;
 }
 
-.about-text-titulo p {
+.about-titulo p {
     font-family: "Playfair Display", system-ui;
     margin-bottom: 20px;
     margin-left: 40px;
     font-size: 30px;
-    }
+}
 
-
-.about-text-cuerpo p {
+.about-cuerpo p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin-top: 10px;
@@ -172,13 +169,14 @@ a {
     line-height: 1.5;
 }
 
-.about-foto {
-    width: 469px;
-    height: 399px;
-    margin-right: 50px;
+@media (max-width:900px) {
+    .about-container {
+        flex-wrap: wrap;
+    }
 }
 
-/* -------------------------------------------------------------------------------------- */
+
+/*-------------------------------------------------------------------------------------- */
 
 .info {
     text-align: center;
@@ -188,18 +186,42 @@ a {
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     height: 450px;
     background-color: #000000;
     padding: 20px 50px;
+    align-content: flex-start;
 }
 
 .footer-logo {
     display: flex;
     justify-content: space-between;
-    border: solid 1px #fff;
     height: 120px;
     width: 1500px;
+    margin: 0 auto;
 }
 
+.footer-info{
+    font-family: "Playfair Display", system-ui;
+    color: #FFFF;
+    margin-left: 152px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
 
+.footer-info h2{
+    margin-bottom: 5px;
+}
+
+.contacto{
+    font-family: "Open Sans", sans-serif;
+    line-height: 3;
+    display: inline-flex;
+}
+
+.contacto2{
+    font-family: "Open Sans", sans-serif;
+    display: inline-flex;
+    line-height: 2;
+    margin-left: 40px;
+}
