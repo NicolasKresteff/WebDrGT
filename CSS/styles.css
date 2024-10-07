@@ -12,7 +12,7 @@
 header {
     display: flex;
     height: 70px;
-    padding: 20px;
+    padding: 45px;
     justify-content: space-between;
     align-items: center;
     background-color: #fff0d977;
@@ -45,14 +45,13 @@ a {
     font-weight: 600;
     margin-right: 20px;
     color: black;
-    padding: 9px 15px;
+    padding: 9px 18px;
     border-radius: 15px;
 }
 
 #nav-link-contacto {
     color: black;
     background-color: #ff914dcb;
-
 }
 
 .nav-link:hover, #nav-link-contacto:hover {
@@ -62,14 +61,10 @@ a {
 
 /* -------------------------------------------------------------------------------------- */
 
-.about__container{
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFF0D9;
-    width: 1200px;
-    height: 500px;
+.main-title {
+    width: 244px;
+    margin: 15px auto;
 }
-
 
 .select-menu {
     width: 250px;
@@ -136,11 +131,15 @@ a {
 
 /*----------------------------------------------------------------------*/
 
+
 .about__container{
-    background-color: #FFF0D9;
-    display: grid;
-    gap: 1em;
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-between;
     align-items: center;
+    background-color: #FFF0D9;
+    width: 1200px;
+    height: 500px;
 }
 
 
@@ -180,17 +179,20 @@ a {
 
 /* -------------------------------------------------------------------------------------- */
 
-.footer{
-    background-color: black;
+footer {
+    display: flex;
+    justify-content: center;
     height: 450px;
+    background-color: #000000;
+    padding: 20px 50px;
 }
 
-.footertext{
-    color: #FFFFFF;
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #fff;
+    height: 120px;
+    width: 1500px;
 }
 
-.footer__icono{
-    position: absolute;
-    display: inline-block;
-    padding-left: 1000px;
-}
+
