@@ -9,7 +9,7 @@
     list-style: none;
 }
 
-header {
+.header-container {
     display: flex;
     height: 70px;
     padding: 45px;
@@ -18,7 +18,7 @@ header {
     background-color: #fff0d977;
 }
 
-.logo {
+.logo-container {
     display: flex;
     width: 410px;
     align-items: center;
