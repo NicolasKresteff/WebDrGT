@@ -188,10 +188,11 @@ a {
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     height: 450px;
     background-color: #000000;
     padding: 20px 50px;
+    align-content: flex-start;
 }
 
 .footer-logo {
@@ -200,6 +201,23 @@ footer {
     border: solid 1px #fff;
     height: 120px;
     width: 1500px;
+    margin: 0 auto;
 }
 
+
+.footer-info{
+    font-family: "Playfair Display", system-ui;
+    color: #FFFF;
+    margin-left: 152px;
+    margin-top: 50px;
+}
+
+.footer-info h2{
+    margin-bottom: 5px;
+}
+
+.contacto{
+    font-family: "Open Sans", sans-serif;
+    line-height: 3;
+}
 
