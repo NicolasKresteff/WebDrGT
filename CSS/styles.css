@@ -138,32 +138,26 @@ a {
 
 /*----------------------------------------------------------------------*/
 
-
 .about-container {
     display: flex;
-    margin: 50px auto;
-    justify-content: space-between;
-    align-items: center;
     background-color: #FFF0D9;
-    width: 1200px;
-    height: 500px;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-.about-text {
-    height: 300px;
-    margin-left: 30px;
+.about-item1 {
+    width: 500px;
 }
 
-.about-text-titulo p {
+.about-titulo p {
     font-family: "Playfair Display", system-ui;
     margin-bottom: 20px;
     margin-left: 40px;
     font-size: 30px;
-    }
+}
 
-
-.about-text-cuerpo p {
+.about-cuerpo p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin-top: 10px;
@@ -172,13 +166,14 @@ a {
     line-height: 1.5;
 }
 
-.about-foto {
-    width: 469px;
-    height: 399px;
-    margin-right: 50px;
+@media (max-width:900px) {
+    .about-container {
+        flex-wrap: wrap;
+    }
 }
 
-/* -------------------------------------------------------------------------------------- */
+
+/*-------------------------------------------------------------------------------------- */
 
 .info {
     text-align: center;
