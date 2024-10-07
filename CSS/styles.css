@@ -36,8 +36,15 @@ header {
     font-family: "Open Sans", sans-serif;
 }
 
+.ic-contactar {
+    width: 12px;
+    height: 12px;
+    margin-left: 3px;
+}
+
 a {
     text-decoration: none;
+    color: #000;
 }
 
 .nav-link {
@@ -89,7 +96,7 @@ a {
     transition: 0.5s;
 }
 
-.ic_option {
+.ic-option {
     width: 20px;
     height: 20px;
 }
@@ -132,7 +139,7 @@ a {
 /*----------------------------------------------------------------------*/
 
 
-.about__container{
+.about-container {
     display: flex;
     margin: 50px auto;
     justify-content: space-between;
@@ -143,12 +150,12 @@ a {
 }
 
 
-.about_texts{
+.about-text {
     height: 300px;
     margin-left: 30px;
 }
 
-.about_texts_titulo p{
+.about-text-titulo p {
     font-family: "Playfair Display", system-ui;
     margin-bottom: 20px;
     margin-left: 40px;
@@ -156,7 +163,7 @@ a {
     }
 
 
-.about_texts_cuerpo p{
+.about-text-cuerpo p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin-top: 10px;
@@ -165,7 +172,7 @@ a {
     line-height: 1.5;
 }
 
-.about_foto{
+.about-foto {
     width: 469px;
     height: 399px;
     margin-right: 50px;
@@ -173,7 +180,7 @@ a {
 
 /* -------------------------------------------------------------------------------------- */
 
-.info{
+.info {
     text-align: center;
 }
 
